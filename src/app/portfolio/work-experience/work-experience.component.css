@@ -6,15 +6,25 @@
     text-align: right;
 }
 
+.section-title {
+    font-weight: 1000;
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    margin-left: 40%;
+}
 
-/* .work-experience {
-    background-color: bisque;
-} */
+.work-experience {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
 
 .timeline {
     position: relative;
     max-width: 1000px;
     margin: 0 auto;
+    margin-top: 70px;
     /* background-color: cornflowerblue; */
 }
 
@@ -109,11 +119,15 @@
 /* The actual content */
 
 .content {
-    padding: 20px 30px;
+    padding: 20px 20px;
     background-color: rgb(115, 121, 121);
     position: relative;
     border-radius: 6px;
     color: white;
+}
+
+.content:hover {
+    opacity: 1
 }
 
 

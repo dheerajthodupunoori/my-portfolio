@@ -1,0 +1,13 @@
+.section-title {
+    font-weight: 1000;
+    font-size: 30px;
+    margin-top: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 5px red;
+    margin-left: 40%;
+}
+
+.education {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
