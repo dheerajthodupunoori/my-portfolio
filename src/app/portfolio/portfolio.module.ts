@@ -11,6 +11,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { SkillsComponent } from './skills/skills.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
+import { SingleArticleComponent } from './articles/single-article/single-article.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { TestimonialsComponent } from './testimonials/testimonials.component';
     ProjectsComponent,
     SkillsComponent,
     TestimonialsComponent,
-    WorkExperienceComponent
+    WorkExperienceComponent,
+    SingleArticleComponent
   ],
   exports: [
     AboutMeComponent,
