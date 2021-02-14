@@ -4,5 +4,66 @@
     min-height: 100vh;
     background-size: cover;
     background-position: center;
-    padding: 250px 0 200px;
+    padding: 250px 0 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.fsd {
+    color: rgb(255, 102, 0);
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+a.links {
+    padding-right: 20px;
+    color: rgb(202, 35, 13);
+    font-size: 40px;
+}
+
+a.links:hover {
+    color: white;
+    font-size: 60px;
+}
+
+hr {
+    border: 1px solid white;
+    width: 50%;
+    /* justify-content: center; */
+    margin-left: 25%;
 }
