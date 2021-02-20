@@ -68,3 +68,37 @@ hr {
     /* justify-content: center; */
     margin-left: 25%;
 }
+
+#social-links {
+    font-size: 0;
+}
+
+#social-links a {
+    opacity: 0;
+}
+
+@keyframes fdsseq {
+    100% {
+        opacity: 1;
+    }
+}
+
+#social-links a {
+    animation: fdsseq .5s forwards;
+}
+
+#social-links a:nth-child(1) {
+    animation-delay: 0.7s;
+}
+
+#social-links a:nth-child(2) {
+    animation-delay: 1.4s;
+}
+
+#social-links a:nth-child(3) {
+    animation-delay: 2.1s;
+}
+
+#social-links a:nth-child(4) {
+    animation-delay: 2.8s;
+}
