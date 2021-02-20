@@ -21,11 +21,15 @@
         min-height: 80vh;
         background-size: cover;
         background-position: center;
-        width: 80%;
-        margin-left: 10%;
+        width: 90%;
+        margin-left: 5%;
         padding-bottom: 50px;
         border-radius: 5%;
         display: flex;
+    }
+    aside {
+        width: 200px;
+        height: 450px;
     }
 }
 
