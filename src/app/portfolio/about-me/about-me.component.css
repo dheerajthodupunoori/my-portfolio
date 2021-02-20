@@ -1,8 +1,6 @@
 .about {
-    /* background: #2b2b2b; */
     padding-bottom: 50px;
     padding-top: 60px;
-    /* background-image: radial-gradient(white, #44444c, #161619); */
 }
 
 .background {
@@ -33,7 +31,6 @@ aside {
     display: block;
     height: 350px;
     width: 350px;
-    /* background: url(https://s-media-cache-ak0.pinimg.com/736x/3a/1f/02/3a1f02c10700daa80655a302c5a27acf.jpg); */
     background-size: cover;
     overflow: hidden;
     box-shadow: 0 0 100px 10px #fff;
@@ -131,9 +128,6 @@ aside:hover .profile-bio {
     font-size: 20px;
 }
 
-
-/*PROFILE IMAGE ANIMATE */
-
 @keyframes profile_image {
     0% {
         transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
@@ -215,9 +209,6 @@ aside:hover .profile-bio {
     }
 }
 
-
-/*NAME ANIMATE */
-
 aside:hover header h1 {
     animation: name_and_job 1500ms linear both;
     animation-delay: 0.4s;
@@ -281,19 +272,4 @@ aside:hover header h1 {
     100% {
         transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     }
-}
-
-aside:hover ul li:first-child {
-    animation: social_animation 2000ms ease-in-out both;
-    animation-delay: 0.75s;
-}
-
-aside:hover ul li:nth-child(2) {
-    animation: social_animation 2000ms ease-in-out both;
-    animation-delay: 1s;
-}
-
-aside:hover ul li:nth-child(3) {
-    animation: social_animation 2000ms ease-in-out both;
-    animation-delay: 1.25s;
 }
