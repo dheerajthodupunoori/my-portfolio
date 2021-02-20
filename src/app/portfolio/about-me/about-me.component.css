@@ -5,8 +5,7 @@
     /* background-image: radial-gradient(white, #44444c, #161619); */
 }
 
-
-/* .background {
+.background {
     background: url(src/assets/images/bg2.jpg);
     min-height: 80vh;
     background-size: cover;
@@ -15,10 +14,8 @@
     margin-left: 20%;
     padding-bottom: 50px;
     border-radius: 5%;
-} */
-
-
-/* @import url(https://fonts.googleapis.com/css?family=Roboto); */
+    display: flex;
+}
 
 header img {
     border-radius: 50%;
@@ -41,15 +38,33 @@ aside {
     overflow: hidden;
     box-shadow: 0 0 100px 10px #fff;
     transition: all ease 0.3s;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.95);
+        box-shadow: 0 0 100px 10px #fff;
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 100px 10px #fff;
+    }
+    100% {
+        transform: scale(0.95);
+        box-shadow: 0 0 100px 10px #fff;
+    }
 }
 
 aside:hover {
+    margin-top: 40px;
     border-top: 4px solid;
     border-bottom: 4px solid;
-    border-radius: 5px;
+    border-radius: 10px;
     height: 680px;
-    width: 350px;
+    width: 400px;
     box-shadow: 0 0 70px 10px #fff;
+    animation: none;
 }
 
 aside:hover header img {
@@ -66,13 +81,14 @@ header h1 {
     text-align: center;
     color: #fff;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 30px;
+    line-height: 30px;
     display: inline-block;
     padding: 10px;
     transition: all ease 0.250s;
     border-top: 1px solid #fff;
     border-bottom: 1px solid #fff;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
 }
 
 aside:hover header h1 {
@@ -102,34 +118,17 @@ header h2 {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.42) 49%, rgba(0, 0, 0, 0.61) 100%);
 }
 
+p {
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
 aside:hover .profile-bio {
     opacity: 1;
 }
 
 .profile-bio p:first-child {
     text-align: center;
-    font-size: 16px;
-}
-
-.profile-social-links {
-    position: relative;
-    margin-top: -440px;
-    margin-left: -100px;
-    list-style-type: none;
-    opacity: 0;
-    transition: all ease 0.5s;
-}
-
-aside:hover .profile-social-links {
-    margin-left: -30px;
-    opacity: 1;
-}
-
-.profile-social-links li img {
-    width: 30px;
-    background: #fff;
-    border-radius: 50%;
-    padding: 5px;
+    font-size: 20px;
 }
 
 
