@@ -15,6 +15,20 @@
     display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+    .background {
+        background: url(src/assets/images/bg2.jpg);
+        min-height: 80vh;
+        background-size: cover;
+        background-position: center;
+        width: 80%;
+        margin-left: 10%;
+        padding-bottom: 50px;
+        border-radius: 5%;
+        display: flex;
+    }
+}
+
 header img {
     border-radius: 50%;
     margin: 20px auto;
