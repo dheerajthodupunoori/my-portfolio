@@ -1,10 +1,11 @@
 h1 {
     font-weight: 700;
+    align-self: center;
 }
 
 .work-experience {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }

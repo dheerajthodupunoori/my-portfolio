@@ -1,11 +1,6 @@
 <section id="work-experience" class="work-experience">
     <h1>Work Experience</h1>
     <br>
-    <app-individual-work-experience></app-individual-work-experience>
-    <br>
-    <app-individual-work-experience></app-individual-work-experience>
-    <br>
-    <app-individual-work-experience></app-individual-work-experience>
-    <br>
+    <app-individual-work-experience [experience]="experience" *ngFor="let experience of work"></app-individual-work-experience>
 
 </section>
