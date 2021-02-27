@@ -1,3 +1,49 @@
-{
+[{
+        "front": {
+            "CompanyName": "Factset",
+            "Role": "Software Engineer II",
+            "Period": "Oct 2020 - ",
+            "Projects": ["APERF", "ATEST", "MULTIPLEX"],
+            "Background": "src/assets/images/epam1.png"
+        },
+        "back": {
 
-}
+        }
+    },
+    {
+        "front": {
+            "CompanyName": "EPAM Systems",
+            "Role": "Software Engineer",
+            "Period": "Jul 2019 - Oct 2020",
+            "Projects": ["Radian", "One Source Corporate Tax"],
+            "Background": "src/assets/images/epam1.png"
+        },
+        "back": {
+
+        }
+    },
+    {
+        "front": {
+            "CompanyName": "EPAM Systems",
+            "Role": "Junior Software Engineer",
+            "Period": "Jul 2018 - July 2019",
+            "Projects": ["Radian", "KnowBe4"],
+            "Background": "src/assets/images/epam1.png"
+        },
+        "back": {
+
+        }
+    },
+    {
+        "front": {
+            "CompanyName": "Chidagni Consultancy",
+            "Role": "Intern",
+            "Period": "Jan 2018 - Apr 2018",
+            "Projects": ["FinancingPMS"],
+            "Background": "src/assets/images/epam1.png"
+        },
+        "back": {
+
+        }
+    }
+]

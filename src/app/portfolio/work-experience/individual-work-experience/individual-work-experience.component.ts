@@ -3,7 +3,8 @@ import { transition } from '@angular/animations';
 import { animate } from '@angular/animations';
 import { style } from '@angular/animations';
 import { trigger } from '@angular/animations';
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Front } from '../../classes/front';
 
 @Component({
   selector: 'app-individual-work-experience',
@@ -32,7 +33,12 @@ export class IndividualWorkExperienceComponent implements OnInit {
 
   state:string="default";
 
+  @Input()
+  experience: any;
+
+
   ngOnInit(): void {
+console.log(this.experience.front);
   }
 
   cardClicked(){
