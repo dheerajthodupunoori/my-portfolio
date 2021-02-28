@@ -16,6 +16,10 @@
         border-radius: 5%;
         margin: 3% 3% 3% 5%;
     }
+    .flip-card-front:hover {
+        font-weight: 1000;
+        text-shadow: 0px 0px 6px rgb(17, 17, 17);
+    }
 }
 
 .flip-card-inner {
@@ -48,7 +52,6 @@
 .flip-card-front {
     background-color: #bbb;
     color: black;
-    background: url(src/assets/images/epam1.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -58,7 +61,6 @@
 }
 
 .flip-card-back {
-    /* background-color: dodgerblue; */
     color: black;
     transform: rotateY(180deg);
     display: flex;

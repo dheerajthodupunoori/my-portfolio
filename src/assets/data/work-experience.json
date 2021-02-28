@@ -4,7 +4,7 @@
             "Role": "Software Engineer II",
             "Period": "Oct 2020 - ",
             "Projects": ["APERF", "ATEST", "MULTIPLEX"],
-            "Background": "src/assets/images/epam1.png"
+            "Background": "../../../../assets/images/factset.jpg"
         },
         "back": {
 
@@ -16,7 +16,7 @@
             "Role": "Software Engineer",
             "Period": "Jul 2019 - Oct 2020",
             "Projects": ["Radian", "One Source Corporate Tax"],
-            "Background": "src/assets/images/epam1.png"
+            "Background": "../../../../assets/images/epam1.png"
         },
         "back": {
 
@@ -28,7 +28,7 @@
             "Role": "Junior Software Engineer",
             "Period": "Jul 2018 - July 2019",
             "Projects": ["Radian", "KnowBe4"],
-            "Background": "src/assets/images/epam1.png"
+            "Background": "../../../../assets/images/epam1.png"
         },
         "back": {
 
@@ -40,7 +40,7 @@
             "Role": "Intern",
             "Period": "Jan 2018 - Apr 2018",
             "Projects": ["FinancingPMS"],
-            "Background": "src/assets/images/epam1.png"
+            "Background": "../../../../assets/images/chidhagni.png"
         },
         "back": {
 
