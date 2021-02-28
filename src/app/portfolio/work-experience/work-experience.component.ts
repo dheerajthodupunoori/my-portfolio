@@ -20,7 +20,7 @@ export class WorkExperienceComponent implements OnInit {
   ngOnInit(): void {
     this.data=experiences;
     this.work = this.data.default;
-    console.log(this.work[0].front);
+    // console.log(this.work[0].front);
 
     this.work.forEach(experience => {
 
@@ -29,7 +29,7 @@ export class WorkExperienceComponent implements OnInit {
     });
 
 
-    console.log(this.front);
+    // console.log(this.front);
   }
 
 }

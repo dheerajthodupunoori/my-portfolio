@@ -1,6 +1,6 @@
 <div class="flip-card" data-toggle="tooltip" data-placement="top" title="Click to read more">
     <div class="flip-card-inner" (click)="cardClicked()" [@cardFlip]="state">
-        <div class="flip-card-front" id="flip-card-front">
+        <div class="flip-card-front" id="flip-card-front" [ngStyle]="{'background-image': getUrl()}">
             <h1>{{experience.front.CompanyName}}</h1>
             <h2>{{experience.front.Role}}</h2>
             <h3>{{experience.front.Period}}</h3>

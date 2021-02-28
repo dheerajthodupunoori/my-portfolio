@@ -35,10 +35,20 @@ export class IndividualWorkExperienceComponent implements OnInit {
 
   @Input()
   experience: any;
+  background:any;
+  bkUrl:any;
 
 
   ngOnInit(): void {
-console.log(this.experience.front);
+// console.log(this.experience.front);
+this.background=this.experience.front.Background;
+console.log(this.background);
+
+const styles={
+     'background-image':  this.background
+}
+this.bkUrl=styles;
+console.log(this.bkUrl);
   }
 
   cardClicked(){
@@ -48,6 +58,10 @@ console.log(this.experience.front);
     } else {
       this.state = "default";
     }
+  }
+
+  getUrl(){
+    return  `url('${this.background}')`;
   }
 
 }

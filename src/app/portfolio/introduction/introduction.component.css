@@ -6,6 +6,22 @@
     background-position: center;
     padding: 250px 0 10px;
     padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-icon {
+    font-size: 50px;
+    color: black;
+    position: absolute;
+    bottom: 0px;
+}
+
+.bottom-icon :hover {
+    font-size: 70px;
+    color: rgb(202, 35, 13);
 }
 
 .container {
@@ -14,6 +30,26 @@
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-button {
+    padding: 10px;
+    border-radius: 40px;
+    margin: 5px;
+    color: #fff !important;
+    background: #404040;
+}
+
+.info-button:hover {
+    font-weight: 700;
+    transition: all 0.3s ease 0s;
+    text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
 }
 
 h1 {
@@ -65,8 +101,6 @@ a.links:hover {
 hr {
     border: 2px solid white;
     width: 50%;
-    /* justify-content: center; */
-    margin-left: 25%;
 }
 
 #social-links {
@@ -101,4 +135,17 @@ hr {
 
 #social-links a:nth-child(4) {
     animation-delay: 2.8s;
+}
+
+@media only screen and (max-width: 600px) {
+    hr {
+        border: 2px solid black;
+        width: 70%;
+    }
+    .bottom-icon {
+        font-size: 30px;
+    }
+    .bottom-icon :hover {
+        font-size: 40px;
+    }
 }
