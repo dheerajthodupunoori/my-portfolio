@@ -60,6 +60,10 @@ a.links:hover {
     animation-delay: 2.8s;
 }
 
+#social-links a:nth-child(5) {
+    animation-delay: 3.5s;
+}
+
 span {
     color: white;
     padding: 10px;
