@@ -13,6 +13,7 @@ import { WorkExperienceComponent } from './work-experience/work-experience.compo
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { SingleArticleComponent } from './articles/single-article/single-article.component';
 import {IndividualWorkExperienceComponent} from "./work-experience/individual-work-experience/individual-work-experience.component";
+import { SkillComponent } from './skills/skill/skill.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {IndividualWorkExperienceComponent} from "./work-experience/individual-wo
     TestimonialsComponent,
     WorkExperienceComponent,
     SingleArticleComponent,
-    IndividualWorkExperienceComponent
+    IndividualWorkExperienceComponent,
+    SkillComponent
   ],
   exports: [
     AboutMeComponent,

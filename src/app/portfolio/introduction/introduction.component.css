@@ -20,7 +20,7 @@
 }
 
 .bottom-icon :hover {
-    font-size: 70px;
+    font-size: 60px;
     color: rgb(202, 35, 13);
 }
 
@@ -96,6 +96,7 @@ a.links {
 a.links:hover {
     color: white;
     font-size: 60px;
+    transition: ease-in 0.4s;
 }
 
 hr {
@@ -107,7 +108,8 @@ hr {
     font-size: 0;
 }
 
-#social-links a {
+#social-links a,
+img {
     opacity: 0;
 }
 
@@ -117,7 +119,8 @@ hr {
     }
 }
 
-#social-links a {
+#social-links a,
+img {
     animation: fdsseq .5s forwards;
 }
 
@@ -135,6 +138,14 @@ hr {
 
 #social-links a:nth-child(4) {
     animation-delay: 2.8s;
+}
+
+#social-links a:nth-child(5) {
+    animation-delay: 3.5s;
+}
+
+#social-links a:nth-child(6) {
+    animation-delay: 4.2s;
 }
 
 @media only screen and (max-width: 600px) {
