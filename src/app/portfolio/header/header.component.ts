@@ -9,7 +9,14 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  public canShowMenuItems:boolean=true;
+
   ngOnInit(): void {
   }
+
+  // showAllMenu(){
+  //   console.log("show all menu clicked");
+  //   this.canShowMenuItems=!this.canShowMenuItems;
+  // }
 
 }
